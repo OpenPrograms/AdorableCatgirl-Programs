@@ -1,3 +1,4 @@
+local filesystem = require("filesystem")
 local args = {...}
 local file = io.open(args[1], "rb")
 
